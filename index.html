@@ -1,63 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping Cart</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript" src="js/main.js"></script>
-</head>
-<body>
-    <section>
-        
-        <div class="item">
-            <img src="images/protein-powder.jpeg" alt="protein">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, vitae!</p>
-            <h6>1049€</h6>
-            <button onclick="toplam(1049)">Sepete Ekle</button>
-        </div>
 
-        <div class="item">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shopping Cart</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
 
-            <img src="images/gainer.jpeg" alt="gainer,carbohydrate,karbonhidrat">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, aspernatur.</p>
-            <h6>779€</h6>
-            <button onclick="toplam(779)">Sepete Ekle</button>
-        </div>
+    <body>
+        <section class="container">
 
-        <div class="item">
-            <img src="images/bcaa.jpeg" alt="bcaa">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ducimus.</p>
-            <h6>389€</h6>
-            <button onclick="toplam(389)">Sepete Ekle</button>
-        </div>
+            <div class="item">
+                <div class="inner-container">
+                    <div>
+                        <img class="image" src="images/gainer.jpeg" alt="gainer,carbohydrate,karbonhidrat">
+                        <h6>779€</h6>
+                    </div>
+                    <div class="lower-container">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, aspernatur.</p>
+                        <button onclick="toplam(779)">Sepete Ekle</button>
+                    </div>
+                </div>
+            </div>
 
-        <div class="item">
-            <img src="images/creatine.jpeg" alt="creatine,kreatin">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, placeat.</p>
-            <h6>469€</h6>
-            <button onclick="toplam(469)">Sepete Ekle</button>
-        </div>
+            <div class="item">
+                <div class="inner-container">
+                    <div>
+                        <img class="image" src="images/bcaa.jpeg" alt="gainer,carbohydrate,karbonhidrat">
+                        <h6>779€</h6>
+                    </div>
+                    <div class="lower-container">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, aspernatur.</p>
+                        <button onclick="toplam(779)">Sepete Ekle</button>
+                    </div>
+                </div>
+            </div>
 
-        <div class="item">
-            <img src="images/glutamine.jpeg" alt="glutamine,glutamin">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, beatae.</p>
-            <h6>359€</h6>
-            <button onclick="toplam(359)">Sepete Ekle</button>
-        </div>
+            <div class="item">
+                <div class="inner-container">
+                    <div>
+                        <img class="image" src="images/creatine.jpeg" alt="gainer,carbohydrate,karbonhidrat">
+                        <h6>779€</h6>
+                    </div>
+                    <div class="lower-container">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, aspernatur.</p>
+                        <button onclick="toplam(779)">Sepete Ekle</button>
+                    </div>
+                </div>
+            </div>
 
-        <div class="item">
-            <img src="images/glucosamine.jpeg" alt="glucosamine,glukozamin">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, mollitia!</p>
-            <h6>289€</h6>
-            <button onclick="toplam(289)">Sepete Ekle</button>
-        </div>
+            <div class="item">
+                <div class="inner-container">
+                    <div>
+                        <img class="image" src="images/glucosamine.jpeg" alt="gainer,carbohydrate,karbonhidrat">
+                        <h6>779€</h6>
+                    </div>
+                    <div class="lower-container">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, aspernatur.</p>
+                        <button onclick="toplam(779)">Sepete Ekle</button>
+                    </div>
+                </div>
+            </div>
 
-    </section>
+            <div class="item">
+                <div class="inner-container">
+                    <div>
+                        <img class="image" src="images/protein-powder.jpeg" alt="gainer,carbohydrate,karbonhidrat">
+                        <h6>779€</h6>
+                    </div>
+                    <div class="lower-container">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, aspernatur.</p>
+                        <button onclick="toplam(779)">Sepete Ekle</button>
+                    </div>
+                </div>
+            </div>
 
-    <section class="cart">
-        
-    </section>
-</body>
+            <div class="item">
+                <div class="inner-container">
+                    <div>
+                        <img class="image" src="images/glutamine.jpeg" alt="gainer,carbohydrate,karbonhidrat">
+                        <h6>779€</h6>
+                    </div>
+                    <div class="lower-container">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, aspernatur.</p>
+                        <button onclick="toplam(779)">Sepete Ekle</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="cart">
+
+        </section>
+    </body>
+
 </html>

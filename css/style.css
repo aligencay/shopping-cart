@@ -1,16 +1,84 @@
-section{
-    width: 90%;
-    height: auto;
+* {
+    box-sizing: border-box;
+    margin: 0;
 }
-h6{
+
+section.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+}
+
+.item {
+    width: calc(33.33% - 20px);
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item .inner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.item div div {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.item .inner-container div h6 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-top: -65px;
+}
+
+.item .inner-container .lower-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px 0;
+}
+
+button {
+    padding: 6px 12px;
+    border: 1px solid #f12;
+    border-radius: 6px;
+    color: #f12;
+    background-color: #fff;
+    transition: all ease-in .2s;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #f12;
+    color: #fff;
+}
+
+.item .inner-container div img {
+    width: 125px;
+    height: 250px !important;
+    margin-top: -100px;
+    object-fit: contain;
+
+}
+
+.item p {
+    font-size: 14px;
+    color: #141414;
     font-weight: bold;
 }
-button{
-    border: none;
-    outline: none;
-    background: red;
-    color: white;
-}
-img{
-    width: 300px;
+
+img {
+    width: 100px;
 }
