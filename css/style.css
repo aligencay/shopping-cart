@@ -1,0 +1,16 @@
+section{
+    width: 90%;
+    height: auto;
+}
+h6{
+    font-weight: bold;
+}
+button{
+    border: none;
+    outline: none;
+    background: red;
+    color: white;
+}
+img{
+    width: 300px;
+}
